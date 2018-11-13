@@ -1,9 +1,9 @@
 version: 0.0
 os: linux
 files:
-  - source: /atc
+  - source: https://github.com/saifatc/atc.git
     destination: /var/www/html/atc
-  - source: /chinese
+  - source: https://github.com/saifatc/chinese.git
     destination: /var/www/html/chinese
 hooks:
   BeforeInstall:
